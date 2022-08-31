@@ -1,0 +1,13 @@
+name: RegeneratingOres
+version: '${project.version}'
+main: me.github.gavvydizzle.regeneratingores.RegeneratingOres
+api-version: 1.18
+depend: [ ServerUtils ]
+softdepend: [ MultiverseCore ]
+authors: [ GavvyDizzle ]
+description: Custom ores that regenerate and have custom loot tables
+commands:
+  oreadmin:
+    description: RegeneratingOres admin commands
+    permission: regeneratingores.admin
+    permission-message: Insufficient permission
